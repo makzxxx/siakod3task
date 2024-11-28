@@ -8,7 +8,6 @@ public class Main {
         int maxPriority = 1000;
         Random random = new Random();
 
-        // Тест для бинарной кучи
         PriorityQueueHeap heapQueue = new PriorityQueueHeap(numOperations);
         long startInsert = System.currentTimeMillis();
 
